@@ -78,6 +78,8 @@ img {
 }
 
 
+
+
 .features-section,
 .portfolio,
 .team-container{
@@ -240,35 +242,18 @@ margin-top: 20px;
   border: 1px solid #EEEEEE;
   
 }
-.image-bg:hover{
-  
-box-shadow: 0px 1px 1px
-   rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
-     1px 4px 6px rgba(0, 0, 0, 0.16);
-     transition-property: box-shadow;
-transition-duration: 250ms;
- transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.image-bg:focus{
-  
-box-shadow: 0px 1px 1px
-   rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
-     1px 4px 6px rgba(0, 0, 0, 0.16);
-     transition-property: box-shadow;
-transition-duration: 250ms;
- transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-image:hover,
-.link-image:focus {
+
+
+.link-image:hover .bluescreen,
+.link-image:focus .bluescreen{
   box-shadow: 0px 1px 1px
    rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
      1px 4px 6px rgba(0, 0, 0, 0.16);
-     transition-property: box-shadow;
+     transition-property: box-shadow, transform;
 transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ transform: translateY(0%);
 }
 .bluescreenimage{
   position: relative;
@@ -278,7 +263,7 @@ transition-duration: 250ms;
   position: absolute;
   top: 0;
   left: 0;
-  
+  transform: translateY(100%);
 padding-top: 63px;
   padding-bottom: 63px;
   padding-left: 24px;
@@ -293,11 +278,11 @@ font-family: Roboto, sans-serif;
   letter-spacing: 3%;
   color: #FFFFFF;
 background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
+  
  
 }
 .link-image{
-transform: translateY(100%);
+
 }
 
 
@@ -807,50 +792,50 @@ justify-content: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
 }
-.company:hover,
-.company:focus {
+.company-link:hover,
+.company-link:focus {
   border-color: #2196F3;
   transition-property: border-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.company:hover .company-icon1,
-.company:focus .company-icon1 {
+.company-link:hover .company-icon1,
+.company-link:focus .company-icon1 {
 fill: #2196F3;
 transition-property: fill;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.company:hover .company-icon2,
-.company:focus .company-icon2 {
+.company-link:hover .company-icon2,
+.company-link:focus .company-icon2 {
 fill: #2196F3;
 transition-property: fill;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.company:hover .company-icon3,
-.company:focus .company-icon3 {
+.company-link:hover .company-icon3,
+.company-link:focus .company-icon3 {
 fill: #2196F3;
 transition-property: fill;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.company:hover .company-icon4,
-.company:focus .company-icon4 {
+.company-link:hover .company-icon4,
+.company-link:focus .company-icon4 {
 fill: #2196F3;
 transition-property: fill;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.company:hover .company-icon5,
-.company:focus .company-icon5 {
+.company-link:hover .company-icon5,
+.company-link:focus .company-icon5 {
 fill: #2196F3;
 transition-property: fill;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.company:hover .company-icon6,
-.company:focus .company-icon6 {
+.company-link:hover .company-icon6,
+.company-link:focus .company-icon6 {
 fill: #2196F3;
 transition-property: fill;
 transition-duration: 250ms;
