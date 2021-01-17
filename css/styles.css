@@ -299,9 +299,7 @@ background-color: rgba(33, 150, 243, 0.9);
 .link-image{
 transform: translateY(100%);
 }
-.link-image:focus {
-  
-} 
+
 
 .image-bg:hover .link-image {
   
