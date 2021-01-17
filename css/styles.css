@@ -12,8 +12,8 @@
 }
 *,
 *::before,
-*::after {
-  border: solid 1px color:darkred;
+*::after{
+  text-decoration: none;
 }
 
 
@@ -328,17 +328,19 @@ transform: translateY(0%);
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.06em;
+  color: #212121;
+  text-decoration: none;
 }
 .second-name-image {
   
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.03em;
-  color: #757575;
-  
+  color: #212121;
+  text-decoration: none;
 }
 
 .navigation-studio,
