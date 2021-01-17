@@ -76,6 +76,7 @@ img {
   height: auto;
   
 }
+
 *,
 *::before,
 *::after,
@@ -248,15 +249,13 @@ margin-top: 20px;
   border: 1px solid #EEEEEE;
   
 }
+.link-image{
+  display: inline-block;
+}
 
-
-.link-image:hover .bluescreen,
-.link-image:focus .bluescreen{
-  box-shadow: 0px 1px 1px
-   rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
-     1px 4px 6px rgba(0, 0, 0, 0.16);
-     transition-property: box-shadow, transform;
+.link-image:hover .bluescreen{
+  
+     transition-property: transform;
 transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  transform: translateY(0%);
@@ -287,21 +286,15 @@ background-color: rgba(33, 150, 243, 0.9);
   
  
 }
-.link-image{
 
+.link-image:hover,
+.link-image:focus {
+  box-shadow: 0px 1px 1px
+   rgba(0, 0, 0, 0.8),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-
-.image-bg:hover .link-image {
-  
-transition-property: transform;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-   
-transform: translateY(0%);
- 
-}
 
 .box-image {
  
