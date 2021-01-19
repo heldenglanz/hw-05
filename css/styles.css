@@ -92,6 +92,13 @@ img {
 .team-container{
   min-width: 1170px;
 }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 /*--------header-------*/
 .header {
@@ -903,6 +910,8 @@ justify-content: flex-start;
 
 padding-left: 15px;
 padding-right: 15px;
+padding-top: 60px;
+padding-bottom: 60px;
 width: 1200px;
     
 margin: 0 auto;
@@ -911,12 +920,11 @@ margin: 0 auto;
 }
 .left-side{
   display: block;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  
 }
 .footer-navigation-set {
   display: block;
- float:left;
+ 
 padding-top: 11px;
  
  
@@ -976,13 +984,13 @@ padding-top: 11px;
 
 display: block;
 
-
+   
   
 margin-left: 70px;
  
 min-width: 206px;
 
-margin-top: 72px;
+
 
 
 
@@ -997,9 +1005,10 @@ margin-top: 72px;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 20px;
+ margin-top: 11px;
  
 }
-.footer .footer-links {
+.footer-links  {
   display: flex;
   
   align-items: center;
