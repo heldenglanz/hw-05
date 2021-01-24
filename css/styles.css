@@ -1148,6 +1148,27 @@ background-color: rgba(0, 0, 0, 0.1);
   background-color:rgba(0, 0, 0, 0.1);
 }
 .modal{
+  position: relative;
   width: 528px;
   min-height: 581px;
+}
+.closesvgbutton{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.closemodal {
+  
+  background-color: #FFFFFF;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  
+  
 }
