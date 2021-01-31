@@ -1164,6 +1164,12 @@ background-color: rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 .closemodal {
+  position: absolute;
+left: 22.22%;
+right: 16.67%;
+top: 16.67%;
+bottom: 22.22%;
+
   background-color: #FFFFFF;
   width: 18px;
   height: 18px;
