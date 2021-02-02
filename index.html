@@ -55,7 +55,7 @@
     <section class="first-section"> 
      <div class="container-first-section"><h1 class="first-title">Эффективные решения для вашего бизнеса</h1>
     </div>
-    <button class="button-main" type="button">Заказать услугу</button>
+    <button class="button-main" type="button" data-modal-open>Заказать услугу</button>
     </section>
     <section class="features-section">
 <ul class="features">
@@ -444,9 +444,9 @@
     </div>
 </footer>
  
-<div class="backdrop">
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button type="button" class="closesvgbutton">
+        <button type="button" class="closesvgbutton" data-modal-close>
         <svg class="closemodal">
             <use href="./images/sprite.svg#closemodal"></use>
         </svg>
